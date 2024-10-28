@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero {
+            background: linear-gradient(45deg, #1a1a1a, #4a4a4a);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .section-title {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a Web Developer & Designer</p>
+        <a href="#projects" class="btn btn-success">View My Work</a>
+    </header>
+
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <p>My name is Holy Sola Fide Sianipar. I am a passionate web developer with experience in building responsive and user-friendly websites. I specialize in both frontend and backend development, and I am always eager to learn new technologies.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2 class="section-title">Experience</h2>
+        <ul>
+            <li><strong>Web Developer at XYZ Company</strong> (2021 - Present)</li>
+            <li><strong>Frontend Developer Intern at ABC Agency</strong> (2020 - 2021)</li>
+            <li><strong>Freelance Web Developer</strong> (2019 - 2020)</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>A description of the project goes here. Explain what you did and the technologies used.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>A description of the project goes here. Explain what you did and the technologies used.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>A description of the project goes here. Explain what you did and the technologies used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Bootstrap, jQuery</li>
+            <li>Node.js, Express, MongoDB</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Holy Sola Fide Sianipar. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
